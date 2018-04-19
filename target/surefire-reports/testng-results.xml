@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="13312" started-at="2018-04-19T04:16:22Z" finished-at="2018-04-19T04:16:36Z">
+  <suite name="Example test run" duration-ms="28471" started-at="2018-04-19T06:26:28Z" finished-at="2018-04-19T06:26:56Z">
     <groups>
     </groups>
-    <test name="Simple Test" duration-ms="13312" started-at="2018-04-19T04:16:22Z" finished-at="2018-04-19T04:16:36Z">
+    <test name="Simple Test" duration-ms="28471" started-at="2018-04-19T06:26:28Z" finished-at="2018-04-19T06:26:56Z">
       <class name="ExtentReportDemo.ExtentReportDemo.com.DemoExtReport">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="startReport" is-config="true" duration-ms="161" started-at="2018-04-19T09:46:22Z" finished-at="2018-04-19T09:46:23Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="startReport" is-config="true" duration-ms="167" started-at="2018-04-19T11:56:28Z" finished-at="2018-04-19T11:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="FAIL" signature="failTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="failTest" duration-ms="12155" started-at="2018-04-19T09:46:23Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="failTest" duration-ms="26417" started-at="2018-04-19T11:56:28Z" finished-at="2018-04-19T11:56:54Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [NoTitle] but found [https://www.softwaretestingmaterial.com/]]]>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="472" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="650" started-at="2018-04-19T11:56:54Z" finished-at="2018-04-19T11:56:55Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="passTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="passTest" duration-ms="1" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="PASS" signature="passTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="passTest" duration-ms="0" started-at="2018-04-19T11:56:55Z" finished-at="2018-04-19T11:56:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="0" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="0" started-at="2018-04-19T11:56:55Z" finished-at="2018-04-19T11:56:55Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="skipTest" duration-ms="1" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="skipTest" duration-ms="1" started-at="2018-04-19T11:56:55Z" finished-at="2018-04-19T11:56:55Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping - This is not ready for testing ]]>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="0" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="getResult" is-config="true" duration-ms="1" started-at="2018-04-19T11:56:55Z" finished-at="2018-04-19T11:56:55Z">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="endReport" is-config="true" duration-ms="489" started-at="2018-04-19T09:46:35Z" finished-at="2018-04-19T09:46:36Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:ExtentReportDemo.ExtentReportDemo.com.DemoExtReport@2f7a2457]" name="endReport" is-config="true" duration-ms="1051" started-at="2018-04-19T11:56:55Z" finished-at="2018-04-19T11:56:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
