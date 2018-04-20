@@ -57,22 +57,22 @@ public class DemoExtReport {
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
 	}
 
-	@Test
-	public void failTest() {
-		logger = extent.startTest("failTest");
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//libs//chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://www.softwaretestingmaterial.com");
-		String currentURL = driver.getCurrentUrl();
-		Assert.assertEquals(currentURL, "NoTitle");
-		logger.log(LogStatus.PASS, "Test Case (failTest) Status is passed");
-	}
-
-	@Test
-	public void skipTest() {
-		logger = extent.startTest("skipTest");
-		throw new SkipException("Skipping - This is not ready for testing ");
-	}
+//	@Test
+//	public void failTest() {
+//		logger = extent.startTest("failTest");
+//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//libs//chromedriver.exe");
+//		driver = new ChromeDriver();
+//		driver.get("https://www.softwaretestingmaterial.com");
+//		String currentURL = driver.getCurrentUrl();
+//		Assert.assertEquals(currentURL, "NoTitle");
+//		logger.log(LogStatus.PASS, "Test Case (failTest) Status is passed");
+//	}
+//
+//	@Test
+//	public void skipTest() {
+//		logger = extent.startTest("skipTest");
+//		throw new SkipException("Skipping - This is not ready for testing ");
+//	}
 
 	@AfterMethod
 	public void getResult(ITestResult result) throws Exception {

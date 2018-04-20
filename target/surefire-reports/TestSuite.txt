@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 29.204 sec <<< FAILURE! - in TestSuite
-failTest(ExtentReportDemo.ExtentReportDemo.com.DemoExtReport)  Time elapsed: 26.58 sec  <<< FAILURE!
-java.lang.AssertionError: expected [NoTitle] but found [https://www.softwaretestingmaterial.com/]
-	at ExtentReportDemo.ExtentReportDemo.com.DemoExtReport.failTest(DemoExtReport.java:67)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.028 sec - in TestSuite
