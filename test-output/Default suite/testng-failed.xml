@@ -5,9 +5,8 @@
     <classes>
       <class name="ExtentReportDemo.ExtentReportDemo.com.DemoExtReport">
         <methods>
-          <include name="failTest1"/>
           <include name="endReport"/>
-          <include name="passTest"/>
+          <include name="startReport"/>
           <include name="failTest"/>
           <include name="getResult"/>
           <include name="skipTest"/>
